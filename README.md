@@ -16,4 +16,4 @@ Played on a 6x7 board, with each element belong to red, black, or no-one. Each p
 At each step, the AI chooses one of the seven columns (if possible) to place a piece in. (Discrete 7)
 
 ### Observation Space
-The AI can observe the entire board state, a 6x7 matrix with three possible positions. (Box low=-1, high=1, shape=(6, 7))
+The AI can observe the entire board state, a 6x7 matrix with three possible positions. (Box low=-1, high=1, shape=(6, 7)[maybe 7,6])
